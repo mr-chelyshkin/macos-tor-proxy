@@ -40,3 +40,8 @@ sudo rm -rf /opt/homebrew/etc/tor
 sudo rm -rf /opt/homebrew/var/lib/tor
 rm ~/Library/LaunchAgents/homebrew.mxcl.tor.plist 2>/dev/null || true
 ```
+
+# check
+```bash
+curl https://check.torproject.org | grep -i Congratulations
+```
